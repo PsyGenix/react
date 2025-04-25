@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  margin: 4em;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4.1em;
+}
+
+nav ul li {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+nav ul li.active {
+  color: #555;
+  font-weight: bold;
+}

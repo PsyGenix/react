@@ -1,0 +1,36 @@
+.category-section {
+  margin-bottom: 6em;
+  background-color: #FFFFFF;
+  padding: 2em;
+  border-radius: 0.8em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-section h2 {
+  font-size: 2.8rem;
+  font-family: 'Playfair Display';
+  color: #333;
+  margin-bottom: 1.5em;
+  text-transform: capitalize;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5em;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.6em;
+  border: 1px solid #EEE;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  loading: lazy;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,49 @@
+.calendar-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.months-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.month-container {
+  text-align: center;
+}
+
+.month-container h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td:empty {
+  background-color: #f5f5f5;
+}
+
+td.available {
+  background-color: #4caf50;
+  color: white;
+}

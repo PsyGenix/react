@@ -1,0 +1,151 @@
+main {
+  display: flex;
+  gap: 8em;
+  margin-top: 11em;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  margin: 0;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 2em;
+}
+
+.circularCtaBlack {
+  background-color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  border-radius: 1.7em;
+  padding: 1em 1.5em;
+}
+
+.circularCtaWhite {
+  background-color: #F1F3F7;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border-radius: 1.7em;
+  padding: 1em 1.5em;
+}
+
+.leftCol {
+  width: 45%;
+}
+
+.leftCol p {
+  font-size: 1.8rem;
+  margin: 1em 0 2em;
+}
+
+.leftCol ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.leftCol li {
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
+}
+
+.rightCol {
+  flex-grow: 1;
+}
+
+.heroImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.8em;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+.content-sections {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.booking-section {
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 0.8em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-container h2 {
+  font-family: 'Playfair Display';
+  font-size: 2.8rem;
+  color: #333;
+}
+
+.booking-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.booking-container li {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0.5em 0;
+}
+
+.booking-container li strong {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #f1f3f7;
+  padding: 2em;
+  text-align: center;
+  margin-top: 6em;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.footer-container p {
+  font-size: 1.4rem;
+  color: #555;
+  margin: 0;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2em;
+}
+
+.footer-container li {
+  font-size: 1.4rem;
+}
+
+.footer-container a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-container a:hover {
+  color: #555;
+}
